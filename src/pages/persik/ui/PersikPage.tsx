@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { NavIdProps, Panel, PanelHeader, PanelHeaderBack, Placeholder } from '@vkontakte/vkui';
 import { useRouteNavigator } from '@vkontakte/vk-mini-apps-router';
-import PersikImage from '../assets/persik.png';
+import PersikImage from '../../../shared/assets/persik.png'
 
 export const Persik: FC<NavIdProps> = ({ id }) => {
   const routeNavigator = useRouteNavigator();
